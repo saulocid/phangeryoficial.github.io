@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Musica</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+<body>
+	<header class="banner">
+		<img class="img" src="/static/img/logo.png" alt="Logo">
+	</header>
+	<header class="header">
+		<button class="button">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg"
+				viewBox="0 0 16 16">
+				<path fill-rule="evenodd"
+					d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+			</svg>
+		</button>
+		<nav class="nav">
+			<ul class="ul">
+				<li class="li"><a href="/paginas/html/index.html">Inicio</a></li>
+				<li class="li"><a href="/paginas/html/nosotros.html">Nosotros</a></li>
+				<li class="li"><a href="/paginas/html/galeria.html">Galería</a></li>
+				<li class="li"><a href="/paginas/html/musica.html">Música</a></li>
+				<li class="li"><a href="/paginas/html/videos.html">Vídeos</a></li>
+				<li class="li"><a href="/paginas/html/contacto.html">Contacto</a></li>
+				<li class="li"><a href="/paginas/html/acercaDe.html">Acerca de</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="titulo">
+
+		<div class="playlist">
+			<h2 class="h2">PHANGERY - Tracks list</h2>
+			<ul class="ul2" id="tracks">
+				<li id="track01" class="li2"><a href="#track01" data-src="/static/music/001-AgonicoDolor.mp3">Agónico dolor</a></li>
+				<li id="track02" class="li2"><a href="#track02" data-src="/static/music/002-AlFinalDeLaRazon.mp3">Al final de la razón</a></li>
+				<li id="track03" class="li2"><a href="#track03" data-src="/static/music/003-ElPesoDeLasPalabras.mp3">El peso de las palabras</a></li>
+				<li id="track04" class="li2"><a href="#track04" data-src="/static/music/004-ElFosoDeLosLamentos.mp3">El foso de los lamentos</a></li>
+				<li id="track04" class="li2"><a href="#track05" data-src="/static/music/005-LaCaidaDelRey.mp3">La caída del rey</a></li>
+			</ul>
+			<audio id="audio" controls controlsList="nodownload">
+				<source src="" type="audio/mpeg">
+			</audio>
+		</div>
+
+	</main>
+	<footer class="footer">
+		<a href="#">
+			<svg class="svg2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+				viewBox="0 0 16 16">
+				<path fill-rule="evenodd"
+					d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+			</svg>
+		</a>
+		<div class="redes">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/Phangeryoficial/" target="_blank"><img
+							src="/static/img/mini-facebook.png" alt="Facebook" /></a>
+					<a href="https://www.instagram.com/phangeryoficial/" target="_blank"><img
+							src="/static/img/mini-instagram.png" alt="Instagram" /></a>
+					<a href="https://www.youtube.com/@phangeryoficial" target="_blank"><img
+							src="/static/img/mini-youtube.png" alt="YouTube" /></a>
+				</li>
+			</ul>
+		</div>
+		<p id="pie">Phangery &copy; 2017-<span id="anio"></span>. Todos los derechos reservados.</p>
+	</footer>
+	<script defer src="/paginas/script/script.js"></script>
+</body>
+
+</html>
